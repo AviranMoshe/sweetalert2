@@ -322,6 +322,9 @@ declare module 'sweetalert2' {
          * @default 'center'
          */
         position?:
+            'top' | 'top-start' | 'top-end' |
+            'center' | 'center-start' | 'center-end' |
+            'bottom' | 'bottom-start' | 'bottom-end' |
             'top' | 'top-left' | 'top-right' |
             'center' | 'center-left' | 'center-right' |
             'bottom' | 'bottom-left' | 'bottom-right';
